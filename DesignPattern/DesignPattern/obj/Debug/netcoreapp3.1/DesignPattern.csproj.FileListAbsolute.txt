@@ -1,0 +1,13 @@
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.csprojAssemblyReference.cache
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.AssemblyInfoInputs.cache
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.AssemblyInfo.cs
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.csproj.CoreCompileInputs.cache
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.exe
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.deps.json
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.runtimeconfig.json
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.runtimeconfig.dev.json
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.dll
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\bin\Debug\netcoreapp3.1\DesignPattern.pdb
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.dll
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.pdb
+C:\Courses\DesignPattern\DesignPattern\DesignPattern\obj\Debug\netcoreapp3.1\DesignPattern.genruntimeconfig.cache
