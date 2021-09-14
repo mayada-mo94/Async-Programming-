@@ -5,7 +5,7 @@ namespace DesignPattern
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // Client Code
             Report report;
