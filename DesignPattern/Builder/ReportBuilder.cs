@@ -3,13 +3,14 @@
     public abstract class ReportBuilder
     {
         protected Report reportObject;
-        public abstract void SetReportType();
-        public abstract void SetReportHeader();
-        public abstract void SetReportContent();
-        public abstract void SetReportFooter();
-        public void CreateNewReport()
+        public abstract ReportBuilder SetReportType();
+        public abstract ReportBuilder SetReportHeader();
+        public abstract ReportBuilder SetReportContent();
+        public abstract ReportBuilder SetReportFooter();
+        public ReportBuilder CreateNewReport()
         {
             reportObject = new Report();
+            return this;
         }
         public Report GetReport()
         {

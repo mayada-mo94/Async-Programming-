@@ -4,11 +4,12 @@
     {
         public Report MakeReport(ReportBuilder reportBuilder)
         {
-            reportBuilder.CreateNewReport();
-            reportBuilder.SetReportType();
-            reportBuilder.SetReportHeader();
-            reportBuilder.SetReportContent();
-            reportBuilder.SetReportFooter();
+            reportBuilder.CreateNewReport()
+                .SetReportType()
+                .SetReportHeader()
+                .SetReportContent()
+                .SetReportFooter();
+
             return reportBuilder.GetReport();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DesignPattern.Mediator
 {
@@ -16,14 +17,17 @@ namespace DesignPattern.Mediator
             User Anurag = new ConcreteUser(facebookMediator, "Anurag");
             User John = new ConcreteUser(facebookMediator, "John");
 
-            facebookMediator.RegisterUser(Ram);
-            facebookMediator.RegisterUser(Dave);
-            facebookMediator.RegisterUser(Smith);
-            facebookMediator.RegisterUser(Rajesh);
-            facebookMediator.RegisterUser(Sam);
-            facebookMediator.RegisterUser(Pam);
-            facebookMediator.RegisterUser(Anurag);
-            facebookMediator.RegisterUser(John);
+            facebookMediator.RegisterUsers(new List<User>
+            {
+                Ram,
+                Dave,
+                Smith,
+                Rajesh,
+                Sam,
+                Pam,
+                Anurag,
+                John
+            });
 
             Dave.Send("dotnettutorials.net - this website is very good to learn Design Pattern");
             Console.WriteLine();

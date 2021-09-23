@@ -5,9 +5,9 @@ namespace DesignPattern.Mediator
     public class ConcreteFacebookGroupMediator : FacebookGroupMediator
     {
         private List<User> usersList = new List<User>();
-        public void RegisterUser(User user)
+        public void RegisterUsers(List<User> users)
         {
-            usersList.Add(user);
+            usersList = users;
         }
         public void SendMessage(string message, User user)
         {
